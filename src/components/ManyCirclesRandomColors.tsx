@@ -37,12 +37,17 @@ const AnimatedCircle = ({ index, isShowing }) => {
   });
 
   return (
-    <animated.circle
-      {...style}
-      cx={index}
-      cy="10"
-      fill={!isShowing ? "tomato" : !wasShowing.current ? "cornflowerblue" : "lightgrey"}
-    />
+    <>
+      {isShowing && (
+        <animated.circle
+          key={index}
+          {...style}
+          cx={index}
+          cy="10"
+          fill={!isShowing ? "tomato" : !wasShowing.current ? "cornflowerblue" : "lightgrey"}
+        />
+      )}
+    </>
   );
 };
 
