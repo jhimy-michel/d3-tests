@@ -47,3 +47,4 @@ Todo:
 - [ ] deploy in firebase and add it to repository
 - [ ] Dont forget to update the readme file accordingly
 - [ ] Also how do we test this components?
+- [ ] Add more interactivity to the graph
