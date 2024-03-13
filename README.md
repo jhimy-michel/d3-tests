@@ -2,6 +2,14 @@
 
 This repository is for learning about data visualization libraries.
 
+
+## What is d3.js?
+
+A library for manipulating documents based on data.
+
+d3.js allows you to automatically re -render html.
+
+
 ## What is data visualization?
 
 Computer-based visualization systems provide visual representations or datasets designed to help people carry out tasks more effectively.
@@ -14,7 +22,7 @@ Richard Feynman said:
 > I think on paper
 
 
-## some visualizations
+## some visualizations resources
 
 https://www.reuters.com/graphics/
 
@@ -26,3 +34,4 @@ https://flowingdata.com/
 
 
 ## Project idea: Satellites in orbit
+
