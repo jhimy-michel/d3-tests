@@ -35,3 +35,15 @@ https://flowingdata.com/
 
 ## Project idea: Satellites in orbit
 
+
+## Example
+
+Test data used from here: https://2019.stateofjs.com/overview/#toolsArrow
+
+Todo:
+
+- [ ] Create a landing page that contains information about the data, example what is it? what is the data representing?
+- [ ] Create two graphs using d3js and add legend and visualization
+- [ ] deploy in firebase and add it to repository
+- [ ] Dont forget to update the readme file accordingly
+- [ ] Also how do we test this components?

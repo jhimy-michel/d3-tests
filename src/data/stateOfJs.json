@@ -1,0 +1,4325 @@
+[
+ {
+   "id": "typescript",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 33.7,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 4.3,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 38.6,
+             "id": "interested"
+           },
+           {
+             "percentage": 20.8,
+             "id": "would_use"
+           },
+           {
+             "percentage": 2.7,
+             "id": "never_heard"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 33.6,
+             "id": "would_use"
+           },
+           {
+             "percentage": 22,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 37.1,
+             "id": "interested"
+           },
+           {
+             "percentage": 1.5,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 5.8,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 13.7,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 5.4,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 0.4,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 33.8,
+             "id": "interested"
+           },
+           {
+             "percentage": 46.7,
+             "id": "would_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 22.3,
+             "id": "interested"
+           },
+           {
+             "percentage": 0.3,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 58.5,
+             "id": "would_use"
+           },
+           {
+             "percentage": 7.3,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 11.7,
+             "id": "not_interested"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 20124,
+       "buckets": [
+         {
+           "id": "interested",
+           "count": 4478,
+           "percentage": 22.3
+         },
+         {
+           "id": "never_heard",
+           "count": 56,
+           "percentage": 0.3
+         },
+         {
+           "id": "would_use",
+           "count": 11780,
+           "percentage": 58.5
+         },
+         {
+           "id": "would_not_use",
+           "count": 1465,
+           "percentage": 7.3
+         },
+         {
+           "id": "not_interested",
+           "count": 2345,
+           "percentage": 11.7
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "reason",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 0.2,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 11.5,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 0.6,
+             "id": "would_use"
+           },
+           {
+             "percentage": 10,
+             "id": "interested"
+           },
+           {
+             "percentage": 77.7,
+             "id": "never_heard"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 51.7,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 5.6,
+             "id": "would_use"
+           },
+           {
+             "percentage": 22.3,
+             "id": "interested"
+           },
+           {
+             "percentage": 19.6,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 0.9,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 3.5,
+             "id": "would_use"
+           },
+           {
+             "percentage": 18.6,
+             "id": "interested"
+           },
+           {
+             "percentage": 52.1,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 24.8,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 0.9,
+             "id": "would_not_use"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 20082,
+       "buckets": [
+         {
+           "id": "would_use",
+           "count": 707,
+           "percentage": 3.5
+         },
+         {
+           "id": "interested",
+           "count": 3738,
+           "percentage": 18.6
+         },
+         {
+           "id": "never_heard",
+           "count": 10457,
+           "percentage": 52.1
+         },
+         {
+           "id": "not_interested",
+           "count": 4990,
+           "percentage": 24.8
+         },
+         {
+           "id": "would_not_use",
+           "count": 190,
+           "percentage": 0.9
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "elm",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 32.5,
+             "id": "interested"
+           },
+           {
+             "percentage": 3.4,
+             "id": "would_use"
+           },
+           {
+             "percentage": 39.4,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 24,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 0.7,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 33.5,
+             "id": "interested"
+           },
+           {
+             "percentage": 29.8,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 5.2,
+             "id": "would_use"
+           },
+           {
+             "percentage": 30.3,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 1.2,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 4.3,
+             "id": "would_use"
+           },
+           {
+             "percentage": 29.9,
+             "id": "interested"
+           },
+           {
+             "percentage": 21.5,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 1.6,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 42.7,
+             "id": "not_interested"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 4.7,
+             "id": "would_use"
+           },
+           {
+             "percentage": 24.1,
+             "id": "interested"
+           },
+           {
+             "percentage": 27.5,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 1.8,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 41.9,
+             "id": "not_interested"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 20089,
+       "buckets": [
+         {
+           "id": "would_use",
+           "count": 941,
+           "percentage": 4.7
+         },
+         {
+           "id": "interested",
+           "count": 4836,
+           "percentage": 24.1
+         },
+         {
+           "id": "never_heard",
+           "count": 5525,
+           "percentage": 27.5
+         },
+         {
+           "id": "would_not_use",
+           "count": 371,
+           "percentage": 1.8
+         },
+         {
+           "id": "not_interested",
+           "count": 8416,
+           "percentage": 41.9
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "clojurescript",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 21.4,
+             "id": "interested"
+           },
+           {
+             "percentage": 1.9,
+             "id": "would_use"
+           },
+           {
+             "percentage": 27.8,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 47.9,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 1,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 47.7,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 2.3,
+             "id": "would_use"
+           },
+           {
+             "percentage": 20.3,
+             "id": "interested"
+           },
+           {
+             "percentage": 28.5,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 1.3,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 2.3,
+             "id": "would_use"
+           },
+           {
+             "percentage": 26.4,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 0.9,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 54.3,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 16.1,
+             "id": "interested"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 2,
+             "id": "would_use"
+           },
+           {
+             "percentage": 14.9,
+             "id": "interested"
+           },
+           {
+             "percentage": 31.9,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 1.3,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 49.9,
+             "id": "not_interested"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 20092,
+       "buckets": [
+         {
+           "id": "would_use",
+           "count": 399,
+           "percentage": 2
+         },
+         {
+           "id": "interested",
+           "count": 2993,
+           "percentage": 14.9
+         },
+         {
+           "id": "never_heard",
+           "count": 6412,
+           "percentage": 31.9
+         },
+         {
+           "id": "would_not_use",
+           "count": 269,
+           "percentage": 1.3
+         },
+         {
+           "id": "not_interested",
+           "count": 10019,
+           "percentage": 49.9
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "purescript",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 9.6,
+             "id": "interested"
+           },
+           {
+             "percentage": 57.7,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 1.6,
+             "id": "would_use"
+           },
+           {
+             "percentage": 0.7,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 30.4,
+             "id": "not_interested"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 20061,
+       "buckets": [
+         {
+           "id": "interested",
+           "count": 1929,
+           "percentage": 9.6
+         },
+         {
+           "id": "never_heard",
+           "count": 11577,
+           "percentage": 57.7
+         },
+         {
+           "id": "would_use",
+           "count": 312,
+           "percentage": 1.6
+         },
+         {
+           "id": "would_not_use",
+           "count": 135,
+           "percentage": 0.7
+         },
+         {
+           "id": "not_interested",
+           "count": 6108,
+           "percentage": 30.4
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "react",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 11.5,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 3.9,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 35.3,
+             "id": "interested"
+           },
+           {
+             "percentage": 48.7,
+             "id": "would_use"
+           },
+           {
+             "percentage": 0.5,
+             "id": "never_heard"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 10.8,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 57.7,
+             "id": "would_use"
+           },
+           {
+             "percentage": 26.8,
+             "id": "interested"
+           },
+           {
+             "percentage": 4.3,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 0.3,
+             "id": "never_heard"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 0.1,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 9.2,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 6.7,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 19.1,
+             "id": "interested"
+           },
+           {
+             "percentage": 64.8,
+             "id": "would_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 12,
+             "id": "interested"
+           },
+           {
+             "percentage": 0,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 71.7,
+             "id": "would_use"
+           },
+           {
+             "percentage": 8.6,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 7.7,
+             "id": "not_interested"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 20072,
+       "buckets": [
+         {
+           "id": "interested",
+           "count": 2410,
+           "percentage": 12
+         },
+         {
+           "id": "never_heard",
+           "count": 9,
+           "percentage": 0
+         },
+         {
+           "id": "would_use",
+           "count": 14382,
+           "percentage": 71.7
+         },
+         {
+           "id": "would_not_use",
+           "count": 1717,
+           "percentage": 8.6
+         },
+         {
+           "id": "not_interested",
+           "count": 1554,
+           "percentage": 7.7
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "vuejs",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 8.7,
+             "id": "would_use"
+           },
+           {
+             "percentage": 27.1,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 30.7,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 32.2,
+             "id": "interested"
+           },
+           {
+             "percentage": 1.3,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 19.6,
+             "id": "would_use"
+           },
+           {
+             "percentage": 21.7,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 51.4,
+             "id": "interested"
+           },
+           {
+             "percentage": 5.5,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 1.9,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 1.3,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 2.8,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 20.4,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 28.8,
+             "id": "would_use"
+           },
+           {
+             "percentage": 46.6,
+             "id": "interested"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 40.5,
+             "id": "would_use"
+           },
+           {
+             "percentage": 34.2,
+             "id": "interested"
+           },
+           {
+             "percentage": 0.4,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 6,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 19,
+             "id": "not_interested"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 20076,
+       "buckets": [
+         {
+           "id": "would_use",
+           "count": 8122,
+           "percentage": 40.5
+         },
+         {
+           "id": "interested",
+           "count": 6857,
+           "percentage": 34.2
+         },
+         {
+           "id": "never_heard",
+           "count": 84,
+           "percentage": 0.4
+         },
+         {
+           "id": "would_not_use",
+           "count": 1198,
+           "percentage": 6
+         },
+         {
+           "id": "not_interested",
+           "count": 3815,
+           "percentage": 19
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "angular",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 39.1,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 6.4,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 39.7,
+             "id": "interested"
+           },
+           {
+             "percentage": 13.6,
+             "id": "would_use"
+           },
+           {
+             "percentage": 1.2,
+             "id": "never_heard"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 18.8,
+             "id": "would_use"
+           },
+           {
+             "percentage": 45,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 25.6,
+             "id": "interested"
+           },
+           {
+             "percentage": 1,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 9.7,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 0.1,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 10.4,
+             "id": "interested"
+           },
+           {
+             "percentage": 23.9,
+             "id": "would_use"
+           },
+           {
+             "percentage": 31.8,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 33.9,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 9.7,
+             "id": "interested"
+           },
+           {
+             "percentage": 0.2,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 21.9,
+             "id": "would_use"
+           },
+           {
+             "percentage": 35.8,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 32.4,
+             "id": "not_interested"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 20071,
+       "buckets": [
+         {
+           "id": "interested",
+           "count": 1952,
+           "percentage": 9.7
+         },
+         {
+           "id": "never_heard",
+           "count": 33,
+           "percentage": 0.2
+         },
+         {
+           "id": "would_use",
+           "count": 4396,
+           "percentage": 21.9
+         },
+         {
+           "id": "would_not_use",
+           "count": 7186,
+           "percentage": 35.8
+         },
+         {
+           "id": "not_interested",
+           "count": 6504,
+           "percentage": 32.4
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "preact",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 1.2,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 36.9,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 28.1,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 27.5,
+             "id": "interested"
+           },
+           {
+             "percentage": 6.2,
+             "id": "would_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 2.7,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 37.8,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 9.5,
+             "id": "would_use"
+           },
+           {
+             "percentage": 25.6,
+             "id": "interested"
+           },
+           {
+             "percentage": 24.4,
+             "id": "never_heard"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 20041,
+       "buckets": [
+         {
+           "id": "would_not_use",
+           "count": 542,
+           "percentage": 2.7
+         },
+         {
+           "id": "not_interested",
+           "count": 7579,
+           "percentage": 37.8
+         },
+         {
+           "id": "would_use",
+           "count": 1901,
+           "percentage": 9.5
+         },
+         {
+           "id": "interested",
+           "count": 5139,
+           "percentage": 25.6
+         },
+         {
+           "id": "never_heard",
+           "count": 4880,
+           "percentage": 24.4
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "ember",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 6.6,
+             "id": "would_use"
+           },
+           {
+             "percentage": 7.4,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 22.3,
+             "id": "interested"
+           },
+           {
+             "percentage": 59.3,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 4.4,
+             "id": "never_heard"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 63.4,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 4.7,
+             "id": "would_use"
+           },
+           {
+             "percentage": 19.5,
+             "id": "interested"
+           },
+           {
+             "percentage": 5.7,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 6.7,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 5,
+             "id": "would_use"
+           },
+           {
+             "percentage": 14.1,
+             "id": "interested"
+           },
+           {
+             "percentage": 7.3,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 6.3,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 67.3,
+             "id": "not_interested"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 9.1,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 14.3,
+             "id": "interested"
+           },
+           {
+             "percentage": 3.6,
+             "id": "would_use"
+           },
+           {
+             "percentage": 8.3,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 64.6,
+             "id": "not_interested"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 20059,
+       "buckets": [
+         {
+           "id": "never_heard",
+           "count": 1835,
+           "percentage": 9.1
+         },
+         {
+           "id": "interested",
+           "count": 2862,
+           "percentage": 14.3
+         },
+         {
+           "id": "would_use",
+           "count": 732,
+           "percentage": 3.6
+         },
+         {
+           "id": "would_not_use",
+           "count": 1669,
+           "percentage": 8.3
+         },
+         {
+           "id": "not_interested",
+           "count": 12961,
+           "percentage": 64.6
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "svelte",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 6.8,
+             "id": "would_use"
+           },
+           {
+             "percentage": 24.7,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 44.9,
+             "id": "interested"
+           },
+           {
+             "percentage": 1,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 22.6,
+             "id": "not_interested"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 20049,
+       "buckets": [
+         {
+           "id": "would_use",
+           "count": 1368,
+           "percentage": 6.8
+         },
+         {
+           "id": "never_heard",
+           "count": 4949,
+           "percentage": 24.7
+         },
+         {
+           "id": "interested",
+           "count": 9011,
+           "percentage": 44.9
+         },
+         {
+           "id": "would_not_use",
+           "count": 192,
+           "percentage": 1
+         },
+         {
+           "id": "not_interested",
+           "count": 4529,
+           "percentage": 22.6
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "redux",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 41,
+             "id": "interested"
+           },
+           {
+             "percentage": 33.5,
+             "id": "would_use"
+           },
+           {
+             "percentage": 13.4,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 9.6,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 2.5,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 33.9,
+             "id": "interested"
+           },
+           {
+             "percentage": 45.2,
+             "id": "would_use"
+           },
+           {
+             "percentage": 10.2,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 6.2,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 4.5,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 4.1,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 10.3,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 11.6,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 26.9,
+             "id": "interested"
+           },
+           {
+             "percentage": 47.1,
+             "id": "would_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 47.7,
+             "id": "would_use"
+           },
+           {
+             "percentage": 18.5,
+             "id": "interested"
+           },
+           {
+             "percentage": 2.6,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 19.8,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 11.4,
+             "id": "not_interested"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 19929,
+       "buckets": [
+         {
+           "id": "would_use",
+           "count": 9499,
+           "percentage": 47.7
+         },
+         {
+           "id": "interested",
+           "count": 3686,
+           "percentage": 18.5
+         },
+         {
+           "id": "never_heard",
+           "count": 523,
+           "percentage": 2.6
+         },
+         {
+           "id": "would_not_use",
+           "count": 3942,
+           "percentage": 19.8
+         },
+         {
+           "id": "not_interested",
+           "count": 2279,
+           "percentage": 11.4
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "apollo",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 6.7,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 80.6,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 11,
+             "id": "interested"
+           },
+           {
+             "percentage": 0.3,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 1.3,
+             "id": "would_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 67.7,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 5.3,
+             "id": "would_use"
+           },
+           {
+             "percentage": 6.9,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 19.8,
+             "id": "interested"
+           },
+           {
+             "percentage": 0.3,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 0.8,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 10.5,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 35.4,
+             "id": "interested"
+           },
+           {
+             "percentage": 42.3,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 11.1,
+             "id": "would_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 36.1,
+             "id": "interested"
+           },
+           {
+             "percentage": 24.9,
+             "id": "would_use"
+           },
+           {
+             "percentage": 26.5,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 2.8,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 9.7,
+             "id": "not_interested"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 19912,
+       "buckets": [
+         {
+           "id": "interested",
+           "count": 7185,
+           "percentage": 36.1
+         },
+         {
+           "id": "would_use",
+           "count": 4956,
+           "percentage": 24.9
+         },
+         {
+           "id": "never_heard",
+           "count": 5273,
+           "percentage": 26.5
+         },
+         {
+           "id": "would_not_use",
+           "count": 566,
+           "percentage": 2.8
+         },
+         {
+           "id": "not_interested",
+           "count": 1932,
+           "percentage": 9.7
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "graphql",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 13.8,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 36.6,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 44,
+             "id": "interested"
+           },
+           {
+             "percentage": 0.6,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 5,
+             "id": "would_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 60,
+             "id": "interested"
+           },
+           {
+             "percentage": 11.8,
+             "id": "would_use"
+           },
+           {
+             "percentage": 9.5,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 17.9,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 0.7,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 7.1,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 1.3,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 8.8,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 62.5,
+             "id": "interested"
+           },
+           {
+             "percentage": 20.4,
+             "id": "would_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 50.6,
+             "id": "interested"
+           },
+           {
+             "percentage": 38.7,
+             "id": "would_use"
+           },
+           {
+             "percentage": 2.7,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 2.1,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 5.9,
+             "id": "not_interested"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 19926,
+       "buckets": [
+         {
+           "id": "interested",
+           "count": 10085,
+           "percentage": 50.6
+         },
+         {
+           "id": "would_use",
+           "count": 7707,
+           "percentage": 38.7
+         },
+         {
+           "id": "never_heard",
+           "count": 545,
+           "percentage": 2.7
+         },
+         {
+           "id": "would_not_use",
+           "count": 423,
+           "percentage": 2.1
+         },
+         {
+           "id": "not_interested",
+           "count": 1166,
+           "percentage": 5.9
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "relay",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 0.7,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 25,
+             "id": "interested"
+           },
+           {
+             "percentage": 59.3,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 13.5,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 1.5,
+             "id": "would_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 60.4,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 23.9,
+             "id": "interested"
+           },
+           {
+             "percentage": 12.6,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 2.2,
+             "id": "would_use"
+           },
+           {
+             "percentage": 0.9,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 1.1,
+             "id": "would_use"
+           },
+           {
+             "percentage": 19.2,
+             "id": "interested"
+           },
+           {
+             "percentage": 56.6,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 1.3,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 21.9,
+             "id": "not_interested"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 52.3,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 2.2,
+             "id": "would_use"
+           },
+           {
+             "percentage": 22.5,
+             "id": "interested"
+           },
+           {
+             "percentage": 1.9,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 21.1,
+             "id": "not_interested"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 19897,
+       "buckets": [
+         {
+           "id": "never_heard",
+           "count": 10400,
+           "percentage": 52.3
+         },
+         {
+           "id": "would_use",
+           "count": 440,
+           "percentage": 2.2
+         },
+         {
+           "id": "interested",
+           "count": 4467,
+           "percentage": 22.5
+         },
+         {
+           "id": "would_not_use",
+           "count": 385,
+           "percentage": 1.9
+         },
+         {
+           "id": "not_interested",
+           "count": 4205,
+           "percentage": 21.1
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "mobx",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 16.3,
+             "id": "interested"
+           },
+           {
+             "percentage": 2.3,
+             "id": "would_use"
+           },
+           {
+             "percentage": 70.9,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 9.9,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 0.6,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 53.7,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 17.7,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 4.8,
+             "id": "would_use"
+           },
+           {
+             "percentage": 22.5,
+             "id": "interested"
+           },
+           {
+             "percentage": 1.3,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 5.6,
+             "id": "would_use"
+           },
+           {
+             "percentage": 1.6,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 26.7,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 44.9,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 21.2,
+             "id": "interested"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 8.3,
+             "id": "would_use"
+           },
+           {
+             "percentage": 23.2,
+             "id": "interested"
+           },
+           {
+             "percentage": 38.3,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 3.6,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 26.5,
+             "id": "not_interested"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 19898,
+       "buckets": [
+         {
+           "id": "would_use",
+           "count": 1653,
+           "percentage": 8.3
+         },
+         {
+           "id": "interested",
+           "count": 4622,
+           "percentage": 23.2
+         },
+         {
+           "id": "never_heard",
+           "count": 7621,
+           "percentage": 38.3
+         },
+         {
+           "id": "would_not_use",
+           "count": 724,
+           "percentage": 3.6
+         },
+         {
+           "id": "not_interested",
+           "count": 5278,
+           "percentage": 26.5
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "express",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 9.6,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 61.3,
+             "id": "would_use"
+           },
+           {
+             "percentage": 8,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 16,
+             "id": "interested"
+           },
+           {
+             "percentage": 5,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 64.7,
+             "id": "would_use"
+           },
+           {
+             "percentage": 16.3,
+             "id": "interested"
+           },
+           {
+             "percentage": 3.9,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 8.8,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 6.3,
+             "id": "never_heard"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 12,
+             "id": "interested"
+           },
+           {
+             "percentage": 71.6,
+             "id": "would_use"
+           },
+           {
+             "percentage": 4.4,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 5.8,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 6.2,
+             "id": "not_interested"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 19876,
+       "buckets": [
+         {
+           "id": "interested",
+           "count": 2388,
+           "percentage": 12
+         },
+         {
+           "id": "would_use",
+           "count": 14230,
+           "percentage": 71.6
+         },
+         {
+           "id": "never_heard",
+           "count": 882,
+           "percentage": 4.4
+         },
+         {
+           "id": "would_not_use",
+           "count": 1144,
+           "percentage": 5.8
+         },
+         {
+           "id": "not_interested",
+           "count": 1232,
+           "percentage": 6.2
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "nextjs",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 1.1,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 35,
+             "id": "interested"
+           },
+           {
+             "percentage": 8.6,
+             "id": "would_use"
+           },
+           {
+             "percentage": 36.8,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 18.4,
+             "id": "not_interested"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 24.7,
+             "id": "would_use"
+           },
+           {
+             "percentage": 2.6,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 15.7,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 43.1,
+             "id": "interested"
+           },
+           {
+             "percentage": 14,
+             "id": "never_heard"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 19870,
+       "buckets": [
+         {
+           "id": "would_use",
+           "count": 4903,
+           "percentage": 24.7
+         },
+         {
+           "id": "would_not_use",
+           "count": 512,
+           "percentage": 2.6
+         },
+         {
+           "id": "not_interested",
+           "count": 3120,
+           "percentage": 15.7
+         },
+         {
+           "id": "interested",
+           "count": 8555,
+           "percentage": 43.1
+         },
+         {
+           "id": "never_heard",
+           "count": 2780,
+           "percentage": 14
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "koa",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 53.2,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 9.3,
+             "id": "would_use"
+           },
+           {
+             "percentage": 17.9,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 17.8,
+             "id": "interested"
+           },
+           {
+             "percentage": 1.9,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 50.1,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 23.4,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 1.4,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 17.6,
+             "id": "interested"
+           },
+           {
+             "percentage": 7.6,
+             "id": "would_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 18.3,
+             "id": "interested"
+           },
+           {
+             "percentage": 11.3,
+             "id": "would_use"
+           },
+           {
+             "percentage": 44.4,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 2.8,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 23.1,
+             "id": "not_interested"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 19836,
+       "buckets": [
+         {
+           "id": "interested",
+           "count": 3637,
+           "percentage": 18.3
+         },
+         {
+           "id": "would_use",
+           "count": 2244,
+           "percentage": 11.3
+         },
+         {
+           "id": "never_heard",
+           "count": 8815,
+           "percentage": 44.4
+         },
+         {
+           "id": "would_not_use",
+           "count": 553,
+           "percentage": 2.8
+         },
+         {
+           "id": "not_interested",
+           "count": 4587,
+           "percentage": 23.1
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "meteor",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 11.2,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 10.9,
+             "id": "would_use"
+           },
+           {
+             "percentage": 43,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 27.5,
+             "id": "interested"
+           },
+           {
+             "percentage": 7.3,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 47.4,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 6.9,
+             "id": "would_use"
+           },
+           {
+             "percentage": 22.8,
+             "id": "interested"
+           },
+           {
+             "percentage": 14.7,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 8.3,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 18.2,
+             "id": "interested"
+           },
+           {
+             "percentage": 20,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 4.7,
+             "id": "would_use"
+           },
+           {
+             "percentage": 7.8,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 49.4,
+             "id": "not_interested"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 3.6,
+             "id": "would_use"
+           },
+           {
+             "percentage": 16.8,
+             "id": "interested"
+           },
+           {
+             "percentage": 23.5,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 9.5,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 46.5,
+             "id": "not_interested"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 19824,
+       "buckets": [
+         {
+           "id": "would_use",
+           "count": 717,
+           "percentage": 3.6
+         },
+         {
+           "id": "interested",
+           "count": 3340,
+           "percentage": 16.8
+         },
+         {
+           "id": "never_heard",
+           "count": 4663,
+           "percentage": 23.5
+         },
+         {
+           "id": "would_not_use",
+           "count": 1880,
+           "percentage": 9.5
+         },
+         {
+           "id": "not_interested",
+           "count": 9224,
+           "percentage": 46.5
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "sails",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 4.6,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 26.5,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 2.7,
+             "id": "would_use"
+           },
+           {
+             "percentage": 10.3,
+             "id": "interested"
+           },
+           {
+             "percentage": 56,
+             "id": "never_heard"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 9.3,
+             "id": "interested"
+           },
+           {
+             "percentage": 1.7,
+             "id": "would_use"
+           },
+           {
+             "percentage": 53.9,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 30.7,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 4.4,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 2.1,
+             "id": "would_use"
+           },
+           {
+             "percentage": 9.1,
+             "id": "interested"
+           },
+           {
+             "percentage": 53.5,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 29.5,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 5.9,
+             "id": "would_not_use"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 19820,
+       "buckets": [
+         {
+           "id": "would_use",
+           "count": 411,
+           "percentage": 2.1
+         },
+         {
+           "id": "interested",
+           "count": 1807,
+           "percentage": 9.1
+         },
+         {
+           "id": "never_heard",
+           "count": 10594,
+           "percentage": 53.5
+         },
+         {
+           "id": "not_interested",
+           "count": 5843,
+           "percentage": 29.5
+         },
+         {
+           "id": "would_not_use",
+           "count": 1165,
+           "percentage": 5.9
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "feathers",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 12.2,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 6.5,
+             "id": "interested"
+           },
+           {
+             "percentage": 0.9,
+             "id": "would_use"
+           },
+           {
+             "percentage": 79.8,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 0.6,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 78.4,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 7,
+             "id": "interested"
+           },
+           {
+             "percentage": 11.9,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 1.9,
+             "id": "would_use"
+           },
+           {
+             "percentage": 0.8,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 1.6,
+             "id": "would_use"
+           },
+           {
+             "percentage": 0.7,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 16.3,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 75.4,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 6,
+             "id": "interested"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 9.1,
+             "id": "interested"
+           },
+           {
+             "percentage": 1.9,
+             "id": "would_use"
+           },
+           {
+             "percentage": 66.1,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 1.7,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 21.2,
+             "id": "not_interested"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 19819,
+       "buckets": [
+         {
+           "id": "interested",
+           "count": 1806,
+           "percentage": 9.1
+         },
+         {
+           "id": "would_use",
+           "count": 378,
+           "percentage": 1.9
+         },
+         {
+           "id": "never_heard",
+           "count": 13099,
+           "percentage": 66.1
+         },
+         {
+           "id": "would_not_use",
+           "count": 338,
+           "percentage": 1.7
+         },
+         {
+           "id": "not_interested",
+           "count": 4198,
+           "percentage": 21.2
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "nuxt",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 11.3,
+             "id": "would_use"
+           },
+           {
+             "percentage": 36.1,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 26.7,
+             "id": "interested"
+           },
+           {
+             "percentage": 1.5,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 24.4,
+             "id": "not_interested"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 19812,
+       "buckets": [
+         {
+           "id": "would_use",
+           "count": 2235,
+           "percentage": 11.3
+         },
+         {
+           "id": "never_heard",
+           "count": 7153,
+           "percentage": 36.1
+         },
+         {
+           "id": "interested",
+           "count": 5294,
+           "percentage": 26.7
+         },
+         {
+           "id": "would_not_use",
+           "count": 290,
+           "percentage": 1.5
+         },
+         {
+           "id": "not_interested",
+           "count": 4840,
+           "percentage": 24.4
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "gatsby",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 22,
+             "id": "would_use"
+           },
+           {
+             "percentage": 22.3,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 35,
+             "id": "interested"
+           },
+           {
+             "percentage": 2.9,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 17.9,
+             "id": "not_interested"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 19816,
+       "buckets": [
+         {
+           "id": "would_use",
+           "count": 4352,
+           "percentage": 22
+         },
+         {
+           "id": "never_heard",
+           "count": 4427,
+           "percentage": 22.3
+         },
+         {
+           "id": "interested",
+           "count": 6929,
+           "percentage": 35
+         },
+         {
+           "id": "would_not_use",
+           "count": 569,
+           "percentage": 2.9
+         },
+         {
+           "id": "not_interested",
+           "count": 3539,
+           "percentage": 17.9
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "jest",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 11.6,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 4.7,
+             "id": "would_use"
+           },
+           {
+             "percentage": 63.9,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 16.6,
+             "id": "interested"
+           },
+           {
+             "percentage": 3.3,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 38,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 24.7,
+             "id": "would_use"
+           },
+           {
+             "percentage": 8.3,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 27.3,
+             "id": "interested"
+           },
+           {
+             "percentage": 1.7,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 20.3,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 8.9,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 1.5,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 29.7,
+             "id": "interested"
+           },
+           {
+             "percentage": 39.6,
+             "id": "would_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 22.8,
+             "id": "interested"
+           },
+           {
+             "percentage": 61.2,
+             "id": "would_use"
+           },
+           {
+             "percentage": 8.5,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 2.3,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 5.1,
+             "id": "not_interested"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 19759,
+       "buckets": [
+         {
+           "id": "interested",
+           "count": 4511,
+           "percentage": 22.8
+         },
+         {
+           "id": "would_use",
+           "count": 12091,
+           "percentage": 61.2
+         },
+         {
+           "id": "never_heard",
+           "count": 1687,
+           "percentage": 8.5
+         },
+         {
+           "id": "would_not_use",
+           "count": 453,
+           "percentage": 2.3
+         },
+         {
+           "id": "not_interested",
+           "count": 1017,
+           "percentage": 5.1
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "mocha",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 10.3,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 45.5,
+             "id": "would_use"
+           },
+           {
+             "percentage": 11.2,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 30,
+             "id": "interested"
+           },
+           {
+             "percentage": 3,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 27.8,
+             "id": "interested"
+           },
+           {
+             "percentage": 45.2,
+             "id": "would_use"
+           },
+           {
+             "percentage": 10.9,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 9.5,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 6.6,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 10.1,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 39.4,
+             "id": "would_use"
+           },
+           {
+             "percentage": 26.3,
+             "id": "interested"
+           },
+           {
+             "percentage": 15.7,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 8.5,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 22.1,
+             "id": "interested"
+           },
+           {
+             "percentage": 42,
+             "id": "would_use"
+           },
+           {
+             "percentage": 8.1,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 12,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 15.7,
+             "id": "not_interested"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 19755,
+       "buckets": [
+         {
+           "id": "interested",
+           "count": 4368,
+           "percentage": 22.1
+         },
+         {
+           "id": "would_use",
+           "count": 8303,
+           "percentage": 42
+         },
+         {
+           "id": "never_heard",
+           "count": 1601,
+           "percentage": 8.1
+         },
+         {
+           "id": "would_not_use",
+           "count": 2379,
+           "percentage": 12
+         },
+         {
+           "id": "not_interested",
+           "count": 3104,
+           "percentage": 15.7
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "storybook",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 1.9,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 15.4,
+             "id": "would_use"
+           },
+           {
+             "percentage": 23.8,
+             "id": "interested"
+           },
+           {
+             "percentage": 52.7,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 6.1,
+             "id": "not_interested"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 32.2,
+             "id": "would_use"
+           },
+           {
+             "percentage": 26,
+             "id": "interested"
+           },
+           {
+             "percentage": 31.3,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 2.8,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 7.6,
+             "id": "not_interested"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 19739,
+       "buckets": [
+         {
+           "id": "would_use",
+           "count": 6360,
+           "percentage": 32.2
+         },
+         {
+           "id": "interested",
+           "count": 5136,
+           "percentage": 26
+         },
+         {
+           "id": "never_heard",
+           "count": 6185,
+           "percentage": 31.3
+         },
+         {
+           "id": "would_not_use",
+           "count": 559,
+           "percentage": 2.8
+         },
+         {
+           "id": "not_interested",
+           "count": 1499,
+           "percentage": 7.6
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "cypress",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 23.8,
+             "id": "would_use"
+           },
+           {
+             "percentage": 1.7,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 9.1,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 36.9,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 28.4,
+             "id": "interested"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 19748,
+       "buckets": [
+         {
+           "id": "would_use",
+           "count": 4706,
+           "percentage": 23.8
+         },
+         {
+           "id": "would_not_use",
+           "count": 342,
+           "percentage": 1.7
+         },
+         {
+           "id": "not_interested",
+           "count": 1803,
+           "percentage": 9.1
+         },
+         {
+           "id": "never_heard",
+           "count": 7280,
+           "percentage": 36.9
+         },
+         {
+           "id": "interested",
+           "count": 5617,
+           "percentage": 28.4
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "enzyme",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 13.7,
+             "id": "interested"
+           },
+           {
+             "percentage": 5.9,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 10.5,
+             "id": "would_use"
+           },
+           {
+             "percentage": 69.3,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 0.6,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 57.1,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 19.3,
+             "id": "would_use"
+           },
+           {
+             "percentage": 8.1,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 14.3,
+             "id": "interested"
+           },
+           {
+             "percentage": 1.1,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 2.7,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 12.3,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 18.1,
+             "id": "interested"
+           },
+           {
+             "percentage": 46.6,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 20.3,
+             "id": "would_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 15.7,
+             "id": "interested"
+           },
+           {
+             "percentage": 23.6,
+             "id": "would_use"
+           },
+           {
+             "percentage": 38.7,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 9.5,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 12.5,
+             "id": "not_interested"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 19746,
+       "buckets": [
+         {
+           "id": "interested",
+           "count": 3099,
+           "percentage": 15.7
+         },
+         {
+           "id": "would_use",
+           "count": 4665,
+           "percentage": 23.6
+         },
+         {
+           "id": "never_heard",
+           "count": 7633,
+           "percentage": 38.7
+         },
+         {
+           "id": "would_not_use",
+           "count": 1876,
+           "percentage": 9.5
+         },
+         {
+           "id": "not_interested",
+           "count": 2473,
+           "percentage": 12.5
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "ava",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 5.6,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 9.7,
+             "id": "interested"
+           },
+           {
+             "percentage": 3.8,
+             "id": "would_use"
+           },
+           {
+             "percentage": 80.3,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 0.6,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 76.1,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 9.2,
+             "id": "interested"
+           },
+           {
+             "percentage": 1.7,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 8.1,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 5,
+             "id": "would_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 4,
+             "id": "would_use"
+           },
+           {
+             "percentage": 8.7,
+             "id": "interested"
+           },
+           {
+             "percentage": 1.6,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 13.4,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 72.2,
+             "id": "never_heard"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 8.7,
+             "id": "interested"
+           },
+           {
+             "percentage": 5.1,
+             "id": "would_use"
+           },
+           {
+             "percentage": 69.4,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 14,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 2.9,
+             "id": "would_not_use"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 19714,
+       "buckets": [
+         {
+           "id": "interested",
+           "count": 1712,
+           "percentage": 8.7
+         },
+         {
+           "id": "would_use",
+           "count": 997,
+           "percentage": 5.1
+         },
+         {
+           "id": "never_heard",
+           "count": 13677,
+           "percentage": 69.4
+         },
+         {
+           "id": "not_interested",
+           "count": 2752,
+           "percentage": 14
+         },
+         {
+           "id": "would_not_use",
+           "count": 576,
+           "percentage": 2.9
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "jasmine",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 12.7,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 12,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 39.8,
+             "id": "would_use"
+           },
+           {
+             "percentage": 27.5,
+             "id": "interested"
+           },
+           {
+             "percentage": 8,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 24.4,
+             "id": "interested"
+           },
+           {
+             "percentage": 39,
+             "id": "would_use"
+           },
+           {
+             "percentage": 13.9,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 12.8,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 10,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 14.3,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 28.5,
+             "id": "would_use"
+           },
+           {
+             "percentage": 24.9,
+             "id": "interested"
+           },
+           {
+             "percentage": 22.6,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 9.6,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 16.7,
+             "id": "interested"
+           },
+           {
+             "percentage": 28.6,
+             "id": "would_use"
+           },
+           {
+             "percentage": 19.8,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 14.1,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 20.7,
+             "id": "not_interested"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 19737,
+       "buckets": [
+         {
+           "id": "interested",
+           "count": 3295,
+           "percentage": 16.7
+         },
+         {
+           "id": "would_use",
+           "count": 5647,
+           "percentage": 28.6
+         },
+         {
+           "id": "never_heard",
+           "count": 3910,
+           "percentage": 19.8
+         },
+         {
+           "id": "would_not_use",
+           "count": 2790,
+           "percentage": 14.1
+         },
+         {
+           "id": "not_interested",
+           "count": 4095,
+           "percentage": 20.7
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "puppeteer",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 27.2,
+             "id": "interested"
+           },
+           {
+             "percentage": 33,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 24.3,
+             "id": "would_use"
+           },
+           {
+             "percentage": 3,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 12.5,
+             "id": "not_interested"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 19713,
+       "buckets": [
+         {
+           "id": "interested",
+           "count": 5364,
+           "percentage": 27.2
+         },
+         {
+           "id": "never_heard",
+           "count": 6499,
+           "percentage": 33
+         },
+         {
+           "id": "would_use",
+           "count": 4791,
+           "percentage": 24.3
+         },
+         {
+           "id": "would_not_use",
+           "count": 587,
+           "percentage": 3
+         },
+         {
+           "id": "not_interested",
+           "count": 2472,
+           "percentage": 12.5
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "electron",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 13.6,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 20.9,
+             "id": "would_use"
+           },
+           {
+             "percentage": 16.5,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 47.3,
+             "id": "interested"
+           },
+           {
+             "percentage": 1.6,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 8.9,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 53.2,
+             "id": "interested"
+           },
+           {
+             "percentage": 19.6,
+             "id": "would_use"
+           },
+           {
+             "percentage": 15.4,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 2.9,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 25.6,
+             "id": "would_use"
+           },
+           {
+             "percentage": 45.8,
+             "id": "interested"
+           },
+           {
+             "percentage": 7.4,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 4.3,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 16.8,
+             "id": "not_interested"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 19680,
+       "buckets": [
+         {
+           "id": "would_use",
+           "count": 5043,
+           "percentage": 25.6
+         },
+         {
+           "id": "interested",
+           "count": 9019,
+           "percentage": 45.8
+         },
+         {
+           "id": "never_heard",
+           "count": 1460,
+           "percentage": 7.4
+         },
+         {
+           "id": "would_not_use",
+           "count": 842,
+           "percentage": 4.3
+         },
+         {
+           "id": "not_interested",
+           "count": 3316,
+           "percentage": 16.8
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "reactnative",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 60.2,
+             "id": "interested"
+           },
+           {
+             "percentage": 17.3,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 8.6,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 12.7,
+             "id": "would_use"
+           },
+           {
+             "percentage": 1.2,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 17.1,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 20.1,
+             "id": "would_use"
+           },
+           {
+             "percentage": 57,
+             "id": "interested"
+           },
+           {
+             "percentage": 4.3,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 1.5,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 2.3,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 3.6,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 22.2,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 53.2,
+             "id": "interested"
+           },
+           {
+             "percentage": 18.7,
+             "id": "would_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 44.3,
+             "id": "interested"
+           },
+           {
+             "percentage": 27.2,
+             "id": "would_use"
+           },
+           {
+             "percentage": 1.5,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 5.9,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 21.1,
+             "id": "not_interested"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 19706,
+       "buckets": [
+         {
+           "id": "interested",
+           "count": 8738,
+           "percentage": 44.3
+         },
+         {
+           "id": "would_use",
+           "count": 5352,
+           "percentage": 27.2
+         },
+         {
+           "id": "never_heard",
+           "count": 297,
+           "percentage": 1.5
+         },
+         {
+           "id": "would_not_use",
+           "count": 1169,
+           "percentage": 5.9
+         },
+         {
+           "id": "not_interested",
+           "count": 4150,
+           "percentage": 21.1
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "nativeapps",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 5.2,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 29.8,
+             "id": "would_use"
+           },
+           {
+             "percentage": 38.9,
+             "id": "interested"
+           },
+           {
+             "percentage": 20.7,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 5.4,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 33.5,
+             "id": "would_use"
+           },
+           {
+             "percentage": 17.4,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 38.5,
+             "id": "interested"
+           },
+           {
+             "percentage": 5.1,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 5.6,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 10.6,
+             "id": "would_use"
+           },
+           {
+             "percentage": 28.1,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 28.1,
+             "id": "interested"
+           },
+           {
+             "percentage": 2.8,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 30.4,
+             "id": "not_interested"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 14.2,
+             "id": "would_use"
+           },
+           {
+             "percentage": 36.7,
+             "id": "interested"
+           },
+           {
+             "percentage": 19.8,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 4.1,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 25.2,
+             "id": "not_interested"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 19662,
+       "buckets": [
+         {
+           "id": "would_use",
+           "count": 2788,
+           "percentage": 14.2
+         },
+         {
+           "id": "interested",
+           "count": 7209,
+           "percentage": 36.7
+         },
+         {
+           "id": "never_heard",
+           "count": 3889,
+           "percentage": 19.8
+         },
+         {
+           "id": "would_not_use",
+           "count": 812,
+           "percentage": 4.1
+         },
+         {
+           "id": "not_interested",
+           "count": 4964,
+           "percentage": 25.2
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "cordova",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 30.3,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 14.3,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 15,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 20,
+             "id": "would_use"
+           },
+           {
+             "percentage": 20.4,
+             "id": "interested"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 38.8,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 14.3,
+             "id": "would_use"
+           },
+           {
+             "percentage": 19.8,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 13.7,
+             "id": "interested"
+           },
+           {
+             "percentage": 13.5,
+             "id": "never_heard"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 10.2,
+             "id": "would_use"
+           },
+           {
+             "percentage": 11.8,
+             "id": "interested"
+           },
+           {
+             "percentage": 13.9,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 44.5,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 19.6,
+             "id": "would_not_use"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 10.4,
+             "id": "interested"
+           },
+           {
+             "percentage": 18.6,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 8.7,
+             "id": "would_use"
+           },
+           {
+             "percentage": 22.3,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 40,
+             "id": "not_interested"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 19681,
+       "buckets": [
+         {
+           "id": "interested",
+           "count": 2042,
+           "percentage": 10.4
+         },
+         {
+           "id": "never_heard",
+           "count": 3667,
+           "percentage": 18.6
+         },
+         {
+           "id": "would_use",
+           "count": 1709,
+           "percentage": 8.7
+         },
+         {
+           "id": "would_not_use",
+           "count": 4392,
+           "percentage": 22.3
+         },
+         {
+           "id": "not_interested",
+           "count": 7871,
+           "percentage": 40
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "ionic",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 10,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 24.4,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 33.8,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 10.4,
+             "id": "would_use"
+           },
+           {
+             "percentage": 21.5,
+             "id": "interested"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 8.3,
+             "id": "would_use"
+           },
+           {
+             "percentage": 17.8,
+             "id": "interested"
+           },
+           {
+             "percentage": 23.4,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 7.8,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 42.6,
+             "id": "not_interested"
+           }
+         ]
+       },
+       {
+         "buckets": [
+           {
+             "percentage": 9.5,
+             "id": "would_use"
+           },
+           {
+             "percentage": 19,
+             "id": "interested"
+           },
+           {
+             "percentage": 19.1,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 38.6,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 13.9,
+             "id": "would_not_use"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 19659,
+       "buckets": [
+         {
+           "id": "would_use",
+           "count": 1861,
+           "percentage": 9.5
+         },
+         {
+           "id": "interested",
+           "count": 3739,
+           "percentage": 19
+         },
+         {
+           "id": "never_heard",
+           "count": 3750,
+           "percentage": 19.1
+         },
+         {
+           "id": "not_interested",
+           "count": 7584,
+           "percentage": 38.6
+         },
+         {
+           "id": "would_not_use",
+           "count": 2725,
+           "percentage": 13.9
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "nwjs",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 1.5,
+             "id": "would_use"
+           },
+           {
+             "percentage": 15.1,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 3.1,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 75.7,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 4.5,
+             "id": "interested"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 19658,
+       "buckets": [
+         {
+           "id": "would_use",
+           "count": 299,
+           "percentage": 1.5
+         },
+         {
+           "id": "not_interested",
+           "count": 2976,
+           "percentage": 15.1
+         },
+         {
+           "id": "would_not_use",
+           "count": 618,
+           "percentage": 3.1
+         },
+         {
+           "id": "never_heard",
+           "count": 14884,
+           "percentage": 75.7
+         },
+         {
+           "id": "interested",
+           "count": 881,
+           "percentage": 4.5
+         }
+       ]
+     }
+   }
+ },
+ {
+   "id": "expo",
+   "experience": {
+     "allYears": [
+       {
+         "buckets": [
+           {
+             "percentage": 14.7,
+             "id": "would_use"
+           },
+           {
+             "percentage": 5.2,
+             "id": "would_not_use"
+           },
+           {
+             "percentage": 10.5,
+             "id": "not_interested"
+           },
+           {
+             "percentage": 61.4,
+             "id": "never_heard"
+           },
+           {
+             "percentage": 8.2,
+             "id": "interested"
+           }
+         ]
+       }
+     ],
+     "year": {
+       "total": 19672,
+       "buckets": [
+         {
+           "id": "would_use",
+           "count": 2896,
+           "percentage": 14.7
+         },
+         {
+           "id": "would_not_use",
+           "count": 1029,
+           "percentage": 5.2
+         },
+         {
+           "id": "not_interested",
+           "count": 2065,
+           "percentage": 10.5
+         },
+         {
+           "id": "never_heard",
+           "count": 12069,
+           "percentage": 61.4
+         },
+         {
+           "id": "interested",
+           "count": 1613,
+           "percentage": 8.2
+         }
+       ]
+     }
+   }
+ }
+]
