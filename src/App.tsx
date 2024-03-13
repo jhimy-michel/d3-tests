@@ -5,6 +5,7 @@ import LinePlot from "./components/LinePlot";
 import FirstSvg from "./components/FirstSvg";
 import Circle from "./components/Circle";
 import ManyCircles from "./components/ManyCircles";
+import ManyCirclesRandomColors from "./components/ManyCirclesRandomColors";
 
 function App() {
   const [data, setData] = useState(() => d3.ticks(-2, 2, 200).map(Math.sin));
@@ -19,7 +20,8 @@ function App() {
       {/* <LinePlot data={data} /> */}
       {/* <FirstSvg /> */}
       {/* <Circle/> */}
-      <ManyCircles/>
+      {/* <ManyCircles/> */}
+      <ManyCirclesRandomColors />
     </div>
   );
 }
