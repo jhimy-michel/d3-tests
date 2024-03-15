@@ -2,28 +2,22 @@ import React, { useRef, useEffect, useState } from "react";
 import * as d3 from "d3";
 import { customColors } from "../../data/colors";
 
-/**
- *
- * @param param0
- * @returns
- */
 const LineChart = ({ data, width, height }) => {
   const svgRef = useRef();
   const [activeIndex, setActiveIndex] = useState(null);
-  const [intersection, setIntersection] = useState(null);
+  const [tooltipData, setTooltipData] = useState(null);
+  const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
-    const heightGraph = height - 50;
-    const widthGraph = width - 120;
+    const margin = { top: 50, right: 150, bottom: 50, left: 100 };
+    const chartWidth = width - margin.left - margin.right;
+    const chartHeight = height - margin.top - margin.bottom;
 
-    const svg = d3.select(svgRef.current);
+    const svg = d3.select(svgRef.current).attr("width", width).attr("height", height);
 
-    const xScale = d3.scaleLinear().domain([-0.5, data[0].experience.allYears.length]).range([0, widthGraph]);
+    const xScale = d3.scaleLinear().domain([-0.5, data[0].experience.allYears.length]).range([0, chartWidth]);
 
-    const yScale = d3
-      .scaleLinear()
-      .domain([-5, 80])
-      .range([heightGraph - 10, 0]);
+    const yScale = d3.scaleLinear().domain([0, 80]).range([chartHeight, 0]);
 
     const line = d3
       .line()
@@ -32,134 +26,85 @@ const LineChart = ({ data, width, height }) => {
 
     svg.selectAll("*").remove();
 
+    const chartGroup = svg.append("g").attr("transform", `translate(${margin.left}, ${margin.top})`);
+
     data.forEach((d, index) => {
-      // console.log(d);
       const color = customColors[index];
       const isActive = activeIndex === index;
 
-      svg
+      chartGroup
         .append("path")
         .datum(d.experience.allYears.map((year) => year.buckets.find((bucket) => bucket.id === "interested")))
         .attr("fill", "none")
-        .attr("stroke", color) // Brighten the active line
+        .attr("stroke", color)
         .attr("stroke-width", 1.5)
-        .attr("opacity", isActive ? 1 : 0.2) // Adjust opacity based on activity
+        .attr("opacity", isActive ? 1 : 0.2)
         .attr("d", line)
-        .on("mouseover", () => {
+        .on("mouseover", (event, d) => {
           setActiveIndex(index);
           svg.select(`#legend-${index}`).style("font-weight", "bold");
-        }) // Set active on mouseover
+          setTooltipData(d);
+          setTooltipPosition({ x: event.clientX, y: event.clientY });
+        })
         .on("mouseout", () => {
           svg.select(`#legend-${index}`).style("font-weight", "normal");
           setActiveIndex(null);
-        }) // Reset active on mouseout
-        .style("cursor", "pointer"); // Change cursor to pointer on hover
+          setTooltipData(null);
+        })
+        .style("cursor", "pointer");
 
-      // Add legend
-      svg
+      chartGroup
         .append("text")
-        .attr("x", width - 110)
-        .attr("y", 19 * (index + 1))
+        .attr("x", chartWidth + 10)
+        .attr("y", (index + 1) * 18)
         .text(`${d.id}`)
-        .style("fill", color) // Brighten the active legend
-        .attr("opacity", isActive ? 1 : 0.2) // Adjust opacity based on activity
-        .style("font-size", !isActive ? "16px" : "21px") // Increase font size when active
-        .on("mouseover", () => setActiveIndex(index)) // Set active on mouseover
-        .on("mouseout", () => setActiveIndex(null)) // Reset active on mouseout
-        .style("cursor", "pointer"); // Change cursor to pointer on hover
+        .style("fill", color)
+        .attr("opacity", isActive ? 1 : 0.2)
+        .style("font-size", !isActive ? "16px" : "21px")
+        .on("mouseover", () => {
+          setActiveIndex(index);
+          setTooltipData(d.experience.allYears);
+        })
+        .on("mouseout", () => {
+          setActiveIndex(null);
+          setTooltipData(null);
+        })
+        .style("cursor", "pointer")
+        .attr("id", `legend-${index}`);
     });
 
-    // Add intersection lines and values
-    /* if (intersection !== null) {
-      svg.selectAll(".intersection-line").remove();
-      svg
-        .append("line")
-        .attr("class", "intersection-line")
-        .attr("x1", xScale(intersection.x))
-        .attr("y1", 0)
-        .attr("x2", xScale(intersection.x))
-        .attr("y2", height)
-        .attr("stroke", "black")
-        .attr("stroke-width", 1)
-        .attr("stroke-dasharray", "4");
-
-      svg.selectAll(".intersection-label").remove();
-      svg
-        .append("text")
-        .attr("class", "intersection-label")
-        .attr("x", xScale(intersection.x))
-        .attr("y", yScale(intersection.y) - 8)
-        .text(intersection.y.toFixed(2))
-        .attr("text-anchor", "middle")
-        .style("font-size", "12px");
-    } */
-
-    // Add x-axis
-    svg
+    chartGroup
       .append("g")
-      .attr("transform", `translate(0, ${height - 60})`)
+      .attr("transform", `translate(0, ${chartHeight})`)
       .call(
         d3
           .axisBottom(xScale)
-          .tickValues([0, 1, 2, 3, 4, 5]) // Custom tick values from 2016 to 2019
-          .tickFormat((d) => {
-            return 2016 + d;
-          }) // Format tick values
+          .tickValues([0, 1, 2, 3, 4, 5])
+          .tickFormat((d) => 2016 + d)
       );
 
-    // Add y-axis
-    svg.append("g").call(d3.axisLeft(yScale).ticks(5)).attr("transform", `translate(${5},0)`);
+    chartGroup.append("g").call(d3.axisLeft(yScale).ticks(4));
 
-    // Add x-axis label
-    svg
+    chartGroup
       .append("text")
-      .attr("transform", `translate(${width / 2}, ${height - 10})`)
+      .attr("transform", `translate(${chartWidth / 2}, ${chartHeight + margin.bottom - 10})`)
       .style("text-anchor", "middle")
-      .style("fill", "white") // Brighten the active legend
+      .style("fill", "white")
       .text("Years (2016 - 2019)");
 
-    // Add y-axis label
-    svg
+    chartGroup
       .append("text")
       .attr("transform", "rotate(-90)")
-      .attr("y", 10)
-      .attr("x", -height / 2)
+      .attr("y", -margin.left)
+      .attr("x", -chartHeight / 2)
       .attr("dy", "1em")
       .style("text-anchor", "middle")
-      .style("fill", "white") // Brighten the active legend
+      .style("fill", "white")
       .text("Percentage of interest %");
-  }, [data, width, height, activeIndex /* intersection */]);
 
-  return (
-    <>
-      <svg
-        ref={svgRef}
-        width={width}
-        height={height}
-        /* onMouseMove={(event) => {
-          // const svg = d3.select(svgRef.current);
-          const mouse = d3.pointer(event);
+  }, [data, width, height, activeIndex,tooltipData, tooltipPosition]);
 
-          if (activeIndex !== null) {
-            const xScale = d3
-              .scaleLinear()
-              .domain([0, data[0].experience.allYears.length - 1])
-              .range([0, width]);
-
-            const yScale = d3.scaleLinear().domain([0, 100]).range([height, 0]);
-
-            const xValue = xScale.invert(mouse[0]);
-            const yValue = yScale.invert(mouse[1]);
-
-            setIntersection({ x: xValue, y: yValue });
-          }
-        }}
-        onMouseLeave={() => {
-          setIntersection(null);
-        }} */
-      />
-    </>
-  );
+  return <svg ref={svgRef}></svg>;
 };
 
 export default LineChart;
