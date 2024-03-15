@@ -5,8 +5,6 @@ import { customColors } from "../../data/colors";
 const LineChart = ({ data, width, height }) => {
   const svgRef = useRef();
   const [activeIndex, setActiveIndex] = useState(null);
-  const [tooltipData, setTooltipData] = useState(null);
-  const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
     const margin = { top: 50, right: 150, bottom: 50, left: 100 };
@@ -28,13 +26,13 @@ const LineChart = ({ data, width, height }) => {
 
     const chartGroup = svg.append("g").attr("transform", `translate(${margin.left}, ${margin.top})`);
 
-    data.forEach((d, index) => {
+    data.forEach((dataLine, index) => {
       const color = customColors[index];
       const isActive = activeIndex === index;
 
       chartGroup
         .append("path")
-        .datum(d.experience.allYears.map((year) => year.buckets.find((bucket) => bucket.id === "interested")))
+        .datum(dataLine.experience.allYears.map((year) => year.buckets.find((bucket) => bucket.id === "interested")))
         .attr("fill", "none")
         .attr("stroke", color)
         .attr("stroke-width", 1.5)
@@ -43,13 +41,10 @@ const LineChart = ({ data, width, height }) => {
         .on("mouseover", (event, d) => {
           setActiveIndex(index);
           svg.select(`#legend-${index}`).style("font-weight", "bold");
-          setTooltipData(d);
-          setTooltipPosition({ x: event.clientX, y: event.clientY });
         })
         .on("mouseout", () => {
           svg.select(`#legend-${index}`).style("font-weight", "normal");
           setActiveIndex(null);
-          setTooltipData(null);
         })
         .style("cursor", "pointer");
 
@@ -57,17 +52,15 @@ const LineChart = ({ data, width, height }) => {
         .append("text")
         .attr("x", chartWidth + 10)
         .attr("y", (index + 1) * 18)
-        .text(`${d.id}`)
+        .text(`${dataLine.id}`)
         .style("fill", color)
         .attr("opacity", isActive ? 1 : 0.2)
         .style("font-size", !isActive ? "16px" : "21px")
         .on("mouseover", () => {
           setActiveIndex(index);
-          setTooltipData(d.experience.allYears);
         })
         .on("mouseout", () => {
           setActiveIndex(null);
-          setTooltipData(null);
         })
         .style("cursor", "pointer")
         .attr("id", `legend-${index}`);
@@ -102,7 +95,7 @@ const LineChart = ({ data, width, height }) => {
       .style("fill", "white")
       .text("Percentage of interest %");
 
-  }, [data, width, height, activeIndex,tooltipData, tooltipPosition]);
+  }, [data, width, height, activeIndex]);
 
   return <svg ref={svgRef}></svg>;
 };
