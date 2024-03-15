@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState } from "react";
 import * as d3 from "d3";
 import { customColors } from "../../data/colors";
 
-const LineChart = ({ data, width, height }) => {
+const LineChart = ({ data, width, height, category }) => {
   const svgRef = useRef();
   const [activeIndex, setActiveIndex] = useState(null);
 
@@ -32,7 +32,7 @@ const LineChart = ({ data, width, height }) => {
 
       chartGroup
         .append("path")
-        .datum(dataLine.experience.allYears.map((year) => year.buckets.find((bucket) => bucket.id === "interested")))
+        .datum(dataLine.experience.allYears.map((year) => year.buckets.find((bucket) => bucket.id === category)))
         .attr("fill", "none")
         .attr("stroke", color)
         .attr("stroke-width", 1.5)
@@ -51,11 +51,11 @@ const LineChart = ({ data, width, height }) => {
       chartGroup
         .append("text")
         .attr("x", chartWidth + 10)
-        .attr("y", (index + 1) * 18)
+        .attr("y", (index + 1) * 17)
         .text(`${dataLine.id}`)
         .style("fill", color)
         .attr("opacity", isActive ? 1 : 0.2)
-        .style("font-size", !isActive ? "16px" : "21px")
+        .style("font-size", !isActive ? "17px" : "21px")
         .on("mouseover", () => {
           setActiveIndex(index);
         })
@@ -72,7 +72,7 @@ const LineChart = ({ data, width, height }) => {
       .call(
         d3
           .axisBottom(xScale)
-          .tickValues([0, 1, 2, 3, 4, 5])
+          .tickValues([0, 1, 2, 3, 4])
           .tickFormat((d) => 2016 + d)
       );
 
@@ -88,14 +88,13 @@ const LineChart = ({ data, width, height }) => {
     chartGroup
       .append("text")
       .attr("transform", "rotate(-90)")
-      .attr("y", -margin.left)
+      .attr("y", -margin.left / 2)
       .attr("x", -chartHeight / 2)
       .attr("dy", "1em")
       .style("text-anchor", "middle")
       .style("fill", "white")
       .text("Percentage of interest %");
-
-  }, [data, width, height, activeIndex]);
+  }, [data, width, height, activeIndex, category]);
 
   return <svg ref={svgRef}></svg>;
 };
