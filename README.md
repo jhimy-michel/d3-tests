@@ -14,8 +14,7 @@ This project is for learning about data visualization libraries. As a final test
 
 **Live Demo:**
 
-Live Demo: [https://d3-reports.web.app/](https://d3-reports.web.app/) (**Note:** Replace the placeholder link if necessary)
-
+Live Demo: [https://d3-reports.web.app/](https://d3-reports.web.app/)
 ## About d3.js
 
 D3.js is a powerful JavaScript library for manipulating and visualizing data. It allows you to create interactive and dynamic visualizations directly within your webpages. D3.js offers fine-grained control over every aspect of the visualization, making it suitable for complex projects.
